@@ -1,0 +1,33 @@
+.sort-filter {
+  width: 96%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.sort-select,
+.category-select {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 13px;
+  outline: none;
+  background-color: white;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sort-select:hover,
+.category-select:hover {
+  border-color: #4a8dc7;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.sort-select:focus,
+.category-select:focus {
+  border-color: #4a8dc7;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
